@@ -19,7 +19,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 39px;
+    gap: 9px;
 }
 
 header ul {
@@ -240,7 +240,7 @@ main section {
     }
 
     .tech-container {
-        width: 400px;
+        width: auto;
         height: auto;
     }
 
@@ -281,6 +281,14 @@ main section {
 
 .ul-project {
     margin-left: 10px;
+
+}
+
+@media screen and (max-width: 391px) {
+    
+    header a {
+        padding: 13px;
+    }
 
 }
 

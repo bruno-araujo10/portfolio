@@ -28,14 +28,16 @@ header h1 {
     text-align: center;
 }
 
+nav {
+    margin-left: 10px;
+    margin-top: 10px;
+}
 nav a {
     color: white;
     text-decoration: none;
     background-color: #7A1CBD;
     padding: 10px;
     border-radius: 5px;
-    margin: auto;
-    height: auto;
 }
 
 nav a:hover {
@@ -85,10 +87,8 @@ section img {
 p {
     font-family: 'Bruno Ace SC', cursive;
     color: white;
-    margin-top: 10px;
-    text-align: justify;
+    margin-top: 30px;
     font-size: 2em;
-    text-indent: 30px;
 }
 
 

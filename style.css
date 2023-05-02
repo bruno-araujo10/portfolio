@@ -48,6 +48,7 @@ nav a:hover {
 
 main {
     background-color:black;
+    margin-top: 30px;
 }
 
 .div-border {
@@ -63,6 +64,7 @@ main section {
     border-radius: 5px;
     text-align: center;
     padding: 10px;
+    border: 2px solid #7A1CBD;
 }
 
 section h1, h2 {
@@ -89,6 +91,8 @@ p {
     color: white;
     margin-top: 30px;
     font-size: 2em;
+    text-align: justify;
+    text-indent: 50px;
 }
 
 
@@ -116,7 +120,10 @@ footer img:hover {
     padding-top: 50px;
 }
 
-
-
-
-
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 20px;
+        text-align: center;
+        text-indent: 0;
+    }
+}

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,290 +8,115 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --cor0: #28093D;
+    --cor1: #9A5AC8;
+    --cor2: #7A1CBD;
+    --cor3: #2F1C3D;
+    --cor4: #59158A;
+}
+
 body {
-    background-color: black;
-    width: 100%;
-    height: 100%;
+    background-color: black
 }
 
-header {
-    background-color: white;   
-    border-bottom: 2px solid #0066ff;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 9px;
-}
-
-header ul {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    list-style-type: none;
-    outline: none;
-    height: 0px;
-    align-items: center;
-}
-
-header a {
-    background-color: transparent;
-    border: 1px solid #0066ff;
-    border-radius: 5px;
-    color: #0066ff;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px 20px;
-    transition: all 0.3s ease-in-out;
-    text-decoration: none;
-  }
-  
-  header a:hover,
-  header a:focus {
-    background-color: #0066ff;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  header a:active {
-    border-color: #0066ff;
-    background-color: #0066ff;
-    color: #fff;
-  }
-
-  main {
-    background-color: white;
-    width: 700px;
-    height: 300px;
-    border-radius: 5px;
-    margin: 20px auto;
-    border: 2px solid #0066ff;
-    font-size: 1.5em;
-    display: flex;
-    align-items: center;
-  }
-
-main section {
+header h1 {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 2em;
+    padding: 20px;
+    color: white;
     text-align: center;
-  }
-
-  .home-line {
-    border-bottom: 1px solid #0066ff;
-  }
-
-  .home, .home-tech {
-    font-family: 'Pacifico';
-  }
-
-  .tech-container {
-        background-color: white;
-        width: 700px;
-        height: 300px;
-        border-radius: 5px;
-        margin: 20px  auto;
-        border: 2px solid #0066ff;
-        text-align: center;
-        font-size: 1.5em;
-        display: flex;
-        align-items: center;
-      }
-
-    .tech-img {
-        width: 300px;
-        margin: 0 auto;
-    }
-
-    article {
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        position: relative;
-    }
-
-    .carousel-inner {
-        width: 1000px;
-        height: 700px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .photo {
-        border-radius: 500px;
-        width: 350px;
-        margin-left: 20px;
-    }
-
-    .main-about {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 80%;
-        height: 50%;
-    }
-
-    .about-name {
-        font-family: 'Pacifico';
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .email {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .email:hover {
-        transform: scale(1.1);
-    }
-    
-    .email:active {
-        opacity: 0.5;
-    }
-    
-    .git {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .git:hover {
-        transform: scale(1.1);
-    }
-    
-    .git:active {
-        opacity: 0.5;
-    }
-    
-    .linkedin {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .linkedin:hover {
-        transform: scale(1.1);
-    }
-    
-    .linkedin:active {
-        opacity: 0.5;
-    }
-    
-    .whats {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .whats:hover {
-        transform: scale(1.1);
-    }
-    
-    .whats.active {
-        opacity: 0.5;
-    }
-
-    .map {
-        width: 400px;
-        height: 400px;
-
-    }
-
-    .contact-main {
-        background-color: black;
-        border: none;
-    }
-
-.container-map {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.ul-project {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #7A1CBD;
+    padding: 10px;
+    border-radius: 5px;
     margin: auto;
-
-}
-
-@media screen and (max-width: 950px) {
-
-    header h1 {
-        display: none;
-    }
-
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        width: auto;
-    }
-
-    header ul {
-        gap: 10px;
-        margin-left: 10px;
-    }
-
-    main {
-        width: auto;
-        height: auto;
-    }
-
-    .home {
-        font-size: 25px;
-    }
-
-    .tech-container {
-        width: auto;
-        height: auto;
-    }
-
-    .home-tech {
-        font-size: 25px;
-    }
-
-.main-about {
-    width: 100%;
-    display: block;
-    margin: auto;
-}
-
-.photo {
-    width: 150px;
-    margin-top: 20px;
-    margin-left: 130px;
-}
-
-.about-name {
-    font-size: 40px;
-}
-
-.map {
-    margin-top: 140px;
-
-}
-
-.container {
-    margin-top: 130px;
-}
-
-.carousel-inner {
-    display: flex;
-    width: auto;
     height: auto;
 }
 
-.ul-project {
-    margin-left: 10px;
-
+nav a:hover {
+    background-color: #28093D;
+    color: #59158A;
+    transition-duration: .5s;
 }
 
-@media screen and (max-width: 391px) {
-    
-    header a {
-        padding: 13px;
-    }
-
+main {
+    background-color:black;
 }
 
+.div-border {
+    padding-top: 20px;
+    border-bottom: 2px solid #7A1CBD;
 }
+
+main section {
+    background-color: black;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+section h1, h2 {
+    color: white;
+    font-family: 'Bruno Ace SC', cursive;
+    padding: 0;
+    font-size: 2em;
+}
+
+.home-div {
+    margin-top: 20px;
+    border-bottom: 2px solid #7A1CBD;
+}
+
+section img {
+    margin: auto;
+    border-radius: 50%;
+    max-width: 250px;
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 2em;
+    text-indent: 30px;
+}
+
+
+.container {
+    padding-top: 40px;
+}
+
+.contact-main {
+    padding: 100px;
+}
+
+footer img {
+    width: 50px;
+    padding-top: 5px;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+.map {
+    width: 400px;
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+}
+
+
+
+
+

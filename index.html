@@ -13,42 +13,47 @@
 <body>
 
     <header>
-        <h1 class="home">Bruno Araujo - Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index-2.html">Projects</a></li>
-                <li><a href="index-3.html">About</a></li>
-                <li><a href="index-4.html">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Bem vindo ao meu Portfolio!</h1>
     </header>
 
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index-2.html" id="project">Projects</a>
+        <a href="index-3.html">Contact</a>
+    </nav>
+
     <main>
-        <section>
-            <h1 class="home">Bem vindo ao meu Portfolio!</h1>
-            <h2 class="home">Nesse ambiente você vai encontrar todos os meus projetos
-                realizados. Qualquer dúvida estou à disposição!</h2>
+        <section id="section-home">
+                <div class="div-border"></div>
+                <img src="assets/photo.jpg" alt="foto-perfil">
+                <h1>Bruno Araujo</h1>
+                <h2>Desenvolvedor Front-end</h2>
+                <p>Como desenvolvedor front-end, tenho experiência
+                    em trabalhos freelancer, desenvolvendo projetos para clientes
+                    de diversos segmentos, utilizando as tecnologias HTML, 
+                    CSS e JavaScript. No que se refere a HTML, meu conhecimento
+                    abrange o uso correto de tags e semântica, enquanto em CSS,
+                    minhas habilidades incluem estilização por meio de animações,
+                    seletores, classes, pseudo-classes, flexbox e responsividade.
+                    Com relação ao JavaScript, possuo conhecimentos sólidos em arrays
+                    e objetos, e em recursos como map, filter e reduce, manipulação
+                    da DOM, uso de eventos, parâmetros, loops como for e while, 
+                    condições como if, else e else if, sincronização com o back-end
+                    através do async e await, e axios. Atualmente, estou
+                    me aprimorando em novas tecnologias, como Bootstrap e React,
+                    para tornar meus projetos ainda mais imersivos e com uma
+                    qualidade e otimização ainda maior. 
+                    Sou um desenvolvedor proativo e dedicado, 
+                    constantemente buscando aprimoramento e aprendizado 
+                    em minha área de atuação, visando sempre atender às necessidades
+                    dos clientes e superar suas expectativas.</p>    
         </section>
-    </main>
-
-    <div class="home-line"></div>
-
-
-    <section class="tech-container">
-        <h1 class="home-tech">Tecnologias:</h1>
-        <br>
-        <h3 class="home-tech">HTML, CSS, JavaScript, Bootstrap, 
-            Node.js, Express.js e Python.</h3>
-
-    </section>
-
-    <article>
-        <img class="tech-img" src="assets/tech.png" alt="photo-tech">
-    </article>
-
-
+</main>
 
 </body>
+
+<script src="script.js"> </script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </html>
